@@ -1,0 +1,41 @@
+{{#if error }}
+    <ul id="error-msg" style="background-color: red;
+        color: white;
+        PADDING: 10px;
+        list-style-type: none;
+        position: absolute;
+        text-align: center;
+        border-radius: 10px;
+        z-index: 150;
+        right: 10px;
+        top: 20px;">
+        <li>{{error}}</li>
+    </ul>
+{{/if}}
+
+{{#if success }} 
+    <ul id="success-msg" style="background-color: green;
+        color: white;
+        PADDING: 10px;
+        list-style-type: none;
+        position: absolute;
+        text-align: center;
+        border-radius: 10px;
+        right: 10px;
+        z-index: 150;
+        top: 20px;">
+        <li>{{success}}</li>
+    </ul>
+ {{/if}}
+
+<ul id="custom-error-msg" style="background-color: red;
+    color: white;
+    PADDING: 10px;
+    list-style-type: none;
+    position: absolute;
+    text-align: center;
+    border-radius: 10px;
+    z-index: 150;
+    right: 10px;
+    top: 20px;">
+</ul>

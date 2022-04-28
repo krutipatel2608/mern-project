@@ -1,0 +1,21 @@
+{
+  "name": "mernbackend",
+  "version": "1.0.0",
+  "description": "mern login tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kruti patel",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "handlebars-error-parser": "^1.0.9",
+    "hbs": "^4.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.0",
+    "sweetalert2": "^11.4.9"
+  }
+}
